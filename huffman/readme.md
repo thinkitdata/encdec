@@ -1,7 +1,9 @@
 Implementations in Python3, C++, and Assembly
 
 huffman.py
+
 huffman.cpp
+
 huffman2.asm is for Intel x86_64 NASM/Linux a version for MASM/Windows may be in the works ;-)
 
 Huffman coding is a lossless data compression algorithm that was developed by David A. Huffman in 1952. It is used to compress data by assigning variable-length codes to symbols in the input data. The more frequently occurring symbols are assigned shorter codes, while less frequent symbols are assigned longer codes. This results in a reduction in the amount of data required to represent the original input.
