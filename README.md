@@ -1,2 +1,2 @@
 # encdec
-Encoding, Decoding and Error Detection &amp; Correction Algos
+Encoding, Decoding and Error Detection &amp; Correction Algorithms
