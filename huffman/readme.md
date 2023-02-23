@@ -1,4 +1,5 @@
 ![Huffman Tree](https://github.com/thinkitdata/encdec/blob/main/huffman/huff_ex_2.png)
+<img src="https://github.com/thinkitdata/encdec/blob/main/huffman/huff_ex_2.png" width="50%" height="50%">
 
 ### Readme info for implementations in Python3, C++, and Assembly (x86_64 NASM/Linux) ###
 
