@@ -2,7 +2,7 @@
 <img src="https://github.com/thinkitdata/encdec/blob/main/huffman/huff_ex_2.png" alt="Huffman Tree" width="25%" height="25%" title="Huffman Tree">
 </p>
 
-### Readme info for implementations in Python3, C++, and Assembly (x86_64 NASM/Linux) ###
+### Readme info for implementations in Python3, C++, and Assembly (x86_64 NASM/Linux)
 
 - huffman.py
 - huffman.cpp
@@ -10,7 +10,7 @@
 
 Huffman coding is a lossless data compression algorithm that was developed by David A. Huffman in 1952. It is used to compress data by assigning variable-length codes to symbols in the input data. The more frequently occurring symbols are assigned shorter codes, while less frequent symbols are assigned longer codes. This results in a reduction in the amount of data required to represent the original input.
 
-Huffman Encoding
+**Huffman Encoding
 
 The Huffman encoding process involves the following steps:
 
