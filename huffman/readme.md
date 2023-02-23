@@ -1,3 +1,5 @@
+![Huffman Tree](https://github.com/thinkitdata/encdec/blob/main/huffman/huff_ex_2.png)
+
 ### Readme info for implementations in Python3, C++, and Assembly (x86_64 NASM/Linux) ###
 
 - huffman.py
