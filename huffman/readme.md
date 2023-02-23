@@ -12,9 +12,9 @@ Huffman coding is a lossless data compression algorithm that was developed by Da
 
 **Huffman Encoding**
 
-The Huffman encoding process involves the following steps:
+The Huffman ==encoding process== involves the following steps:
 
-1. ==Frequency Count==: First, the frequency of each symbol in the input data is counted.
+1. == Frequency Count ==: First, the frequency of each symbol in the input data is counted.
 2. Building the Huffman Tree: The next step is to construct a binary tree called the Huffman tree, where the leaves represent the symbols in the input data and the root represents the entire input data. The Huffman tree is built using the following algorithm:
 - a. Create a leaf node for each symbol and assign the frequency count as the node weight.
 - b. Sort the leaf nodes in ascending order of frequency.
