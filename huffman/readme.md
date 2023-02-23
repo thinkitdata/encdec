@@ -10,7 +10,7 @@
 
 Huffman coding is a lossless data compression algorithm that was developed by David A. Huffman in 1952. It is used to compress data by assigning variable-length codes to symbols in the input data. The more frequently occurring symbols are assigned shorter codes, while less frequent symbols are assigned longer codes. This results in a reduction in the amount of data required to represent the original input.
 
-**Huffman Encoding
+**Huffman Encoding**
 
 The Huffman encoding process involves the following steps:
 
