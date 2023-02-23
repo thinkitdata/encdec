@@ -7,6 +7,10 @@
 - huffman.py
 - huffman.cpp
 - huffman2.asm
+*Build with the below*
+~~~
+"nasm '-f', 'elf', '-F', 'dwarf', '-g', '/home/thinkitdata/Documents/dev/assembly/huffman3.asm'"
+~~~
 
 Huffman coding is a lossless data compression algorithm that was developed by David A. Huffman in 1952. It is used to compress data by assigning variable-length codes to symbols in the input data. The more frequently occurring symbols are assigned shorter codes, while less frequent symbols are assigned longer codes. This results in a reduction in the amount of data required to represent the original input.  It is widely used in many applications, including image and audio compression, data transmission, and storage.
 
