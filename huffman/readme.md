@@ -1,6 +1,7 @@
 <p align="center">
 <img src="https://github.com/thinkitdata/encdec/blob/main/huffman/huff_ex_2.png" alt="Huffman Tree" width="25%" height="25%" title="Huffman Tree">
 </p>
+
 ### Readme info for implementations in Python3, C++, and Assembly (x86_64 NASM/Linux) ###
 
 - huffman.py
