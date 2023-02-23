@@ -8,7 +8,7 @@
 - huffman.cpp
 - huffman2.asm
 
-Huffman coding is a lossless data compression algorithm that was developed by David A. Huffman in 1952. It is used to compress data by assigning variable-length codes to symbols in the input data. The more frequently occurring symbols are assigned shorter codes, while less frequent symbols are assigned longer codes. This results in a reduction in the amount of data required to represent the original input.
+Huffman coding is a lossless data compression algorithm that was developed by David A. Huffman in 1952. It is used to compress data by assigning variable-length codes to symbols in the input data. The more frequently occurring symbols are assigned shorter codes, while less frequent symbols are assigned longer codes. This results in a reduction in the amount of data required to represent the original input.  It is widely used in many applications, including image and audio compression, data transmission, and storage.
 
 **Huffman Encoding**
 
@@ -26,23 +26,13 @@ The Huffman encoding process involves the following steps:
    - The code for each symbol is the sequence of 0s and 1s that are encountered on the path from the root to the leaf node that represents the symbol.
    - The codes can be represented as a binary tree with the symbols as the leaves and the codes as the paths from the root to the leaves.
 
-Huffman Decoding
+**Huffman Decoding**
 
 The Huffman decoding process involves the following steps:
 
-1.  Start at the root of the Huffman tree.
-
-2.  Read each bit of the encoded data, starting from the leftmost bit.
-
-3.  Traverse the Huffman tree according to the value of each bit, going left for 0 and right for 1.
-
-4.  When a leaf node is reached, output the corresponding symbol and return to the root of the Huffman tree.
-
-5.  Continue this process until all the bits in the encoded data have been processed.
-
-6.  The result of the decoding process is the original input data.
-
-Huffman coding is an efficient compression algorithm that can achieve a high compression ratio by assigning shorter codes to more frequent symbols. It is widely used in many applications, including image and audio compression, data transmission, and storage.
-
-
-
+1. Start at the root of the Huffman tree.
+2. Read each bit of the encoded data, starting from the leftmost bit.
+3. Traverse the Huffman tree according to the value of each bit, going left for 0 and right for 1.
+4. When a leaf node is reached, output the corresponding symbol and return to the root of the Huffman tree.
+5. Continue this process until all the bits in the encoded data have been processed.
+6. The result of the decoding process is the original input data.
