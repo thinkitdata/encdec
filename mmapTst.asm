@@ -1,3 +1,5 @@
+This program opens a file called testfile for reading and writing, maps the first page of the file into memory using the mmap subroutine, reads the first byte of the mapped region and prints it out, unmaps the memory region, closes the file, and then exits with a return code of 0. Note that the program assumes that testfile is located in the current working directory and that the file exists and is readable and writable. You may need to modify the program if you want to use a different file or if the file has different permissions.
+
 section .data
     filename db "testfile",0
     prot equ PROT_READ | PROT_WRITE
