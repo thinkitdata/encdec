@@ -1,3 +1,5 @@
+##The assembly code is still in development
+
 this line in the above code: cmp esi, [tree]+ebx*2 gives this error: error: comma, decorator or end of line expected, got 43.  How do I fix it
 
 The error you are seeing is likely because of the square brackets around tree. In NASM assembly, square brackets are used to dereference memory addresses. When you write [tree], it means "the value at the memory address pointed to by the tree label".
